@@ -1,0 +1,51 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-size: 80px;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: radial-gradient(circle,#61de4b, #f98226 );
+    color: #ffffff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: #26035a;
+    padding: 1em 0;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fefdfe94;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #0d6d04;
+    color: #fff;
+    
+}
+#contact{
+    text-align: center;
+}
